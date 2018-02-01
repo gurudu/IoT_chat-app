@@ -1,6 +1,6 @@
 Web Sockets
 ============================
-A simple nodeJS project that uses the socket.io NodeJS module to enable real time communication between clients and the development board via a web browser to toggle the state of the onboard LED.
+This is a nodeJS project that uses the socket.io NodeJS module to enable real time communication between clients and the development board via a web browser to toggle the state of the onboard LED.
 
 This NodeJS application consists of a client side application accessible via a web browser in which users can view the number of connected users, send text messages between users as well as toggle the onboard LED (ON/OFF) of your development board.
 
@@ -112,11 +112,6 @@ http.listen(3000, function(){
 Input the IP address of your board plus the port number (3000) 
 For example, http://192.168.1.0:3005
 
-Intel(R) XDK IoT Edition
--------------------------------------------
-This template is part of the Intel(R) XDK IoT Edition. 
-Download the Intel(R) XDK IoT Edition at https://software.intel.com/en-us/html5/xdk-iot. To see the technical details of the sample, 
-please visit the sample article page at https://software.intel.com/en-us/xdk/docs/intel-xdk-iot-edition-nodejs-templates.
 
 Important App Files
 ---------------------------
@@ -124,3 +119,5 @@ Important App Files
 * package.json
 * icon.png
 * README.md
+
+*Thingspeak -- ables to visualize the sensor data on web interace
